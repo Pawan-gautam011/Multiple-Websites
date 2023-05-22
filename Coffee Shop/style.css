@@ -87,17 +87,7 @@ span{
     background: none;
     border: 2px solid crimson;
 }
-/* .footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 2rem 9%;
-    background: black;
-    margin-top: 10px;
-    color: crimson;
 
-} */
 .footer-text p{
     font-size: 1.7rem;
     background: brown;
