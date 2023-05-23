@@ -92,6 +92,9 @@ span{
     background: #f44336;
     transition: 1s;
 }
+nav .fa{
+    display: none;
+}
 /* #menu-icon{
     font-size: 40px;
     cursor: pointer;
