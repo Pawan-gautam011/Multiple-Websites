@@ -95,13 +95,13 @@ span{
 nav .fa{
     display: none;
 }
-/* #menu-icon{
+#menu-icon{
     font-size: 40px;
     cursor: pointer;
     color: #ededed;
     display: none;
     cursor: pointer;
-} */
+}
 @media(max-width:700px){
     .text-box h1{
         font-size: 30px;
