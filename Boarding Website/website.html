@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     
     
 </head>
@@ -16,7 +18,9 @@
     <section class="header">
         <nav>
             <a href="index.html"><img src=""></a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks" >
+                <!-- <div class="bx bx-menu" id="menu-icon"></div> -->
+                <i class='bx bx-x' onclick="showMenu()"  ></i>
                 <ul>
                    <li><a href="">HOME</a></li>
                    <li><a href="">ABOUT</a></li>
@@ -25,6 +29,8 @@
                    <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
+            <i class='bx bx-menu' onclick="hideMenu()" ></i>
+            
         </nav>
 <div class="text-box">
     <h1>Sindhuli's NO.1 Boarding</h1>
@@ -33,5 +39,23 @@
 </div>
     </section>
 
+
+
+
+
+
+
+
+    <!-- java scripttttttttttttt -->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function hideMenu(){
+        navLinks.style.right="0px";
+    }
+    function showMenu(){
+        navLinks.style.right="-200px";
+    }
+ 
+</script>
 </body>
 </html>
