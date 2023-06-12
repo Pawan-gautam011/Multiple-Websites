@@ -11,9 +11,10 @@
     background-size: cover;
     position: relative;
 }
+
 .form-box{
     width: 90%;
-    max-width: 450px;
+    max-width: 455px;
     position: absolute;
     top: 50%;
     left: 50%;
