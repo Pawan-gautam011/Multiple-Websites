@@ -12,16 +12,7 @@ body{
     color: #221314;
 }
 header{
-    /* position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: transparent;
-    padding: 30px 8%;
-    transition: ease .40s; */
+    transition: ease .40s;
     position: fixed;
     top: 0;
     right: 0;
@@ -41,7 +32,10 @@ header{
     color:#fff;
 }
 .navbar{
-    display: flex
+    display: flex;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    position: sticky;
+    
 }
 .navbar a{
     color: #fff;
