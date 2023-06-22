@@ -14,7 +14,8 @@ button{
     padding: 10px 15px;
     border: none;
     transition:  0.2s ease-in-out;
-}button:hover{
+}
+button:hover{
     opacity: 0.8s;
     transition:  0.2s ease-in-out;
 }
@@ -22,10 +23,37 @@ nav{
     box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
     position: sticky;
     top: 0;
+    padding: 30px 8%;
     margin-bottom: 32px ;
     background:white;
     padding: 10px;
     z-index: 50;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    top: 50;
+    justify-content:space-between;
+    float: right ;
+    color:orangered;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 17px;
+
+}
+nav ul li{
+    justify-content: space-between;
+    top: 0;
+    bottom: 0;
+    padding: 20px;
+    cursor: pointer;
+}
+nav ul li:hover{
+    background:#fff;
+    color: orangered;
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
 }
 .navigation{
     display: flex;
@@ -38,6 +66,7 @@ nav{
 }
 .bar_icon{
     font-size: 32px;
+    display: none;
 }
 .hero{
     display: flex;
@@ -63,7 +92,13 @@ nav{
 }
 .explore_btn{
     background: #ffc066;
+    cursor: pointer;
     align-self: flex-start;
+}
+.explore_btn:hover{
+    color:  #ffc066;
+    background: black;
+    border: 2px solid black;
 }
 .features{
     margin-top: 100px;
@@ -141,6 +176,44 @@ nav{
     grid-area: I7;  
 }
 
+footer{
+    background-color: #fff0db;
+
+}
+.link_lists h3{
+    margin-bottom: 10px;
+    color: gray;
+}
+.link_lists ul {
+    list-style: none;
+
+}
+.link_lists ul li{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.news_letter h3{
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.footer_container{
+    padding: 30px;
+    display: flex;
+    justify-content:space-between;
+    cursor: pointer;
+}
+
+.icon_container{
+    display: flex;
+    gap: 15px;
+    font-size: 32px;
+    filter: grayscale(100%);
+}
+.icon_container:hover{
+    filter: grayscale(0);
+}
+
 @media(max-width:786px){
     .hero{
         flex-direction: column;
@@ -172,5 +245,8 @@ nav{
 }
 .grid-image{
     border-radius: 0px;
+}
+.footer_container{
+    flex-direction: column;
 }
 }
