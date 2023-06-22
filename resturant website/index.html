@@ -7,7 +7,7 @@
     <title>Food Menu</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="download.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/cdbd492364.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
@@ -23,10 +23,11 @@
 </div>
 
     </div>
-</nav>
-<div class="bar_icon"> 
-    <i class="fa-solid fa-bars"></i>
+    <div class="bar_icon"> 
+    <i class="fa-solid fa-bars" onclick="toggleMenu()" ></i>
 </div>
+</nav>
+
 
 <!-- hero section -->
 <div class="container">
@@ -130,22 +131,34 @@
         <h3>Follow Us</h3>
         <div class="icon_container">
             <div class="icon">
-                <!-- <i class="fa fa-facebook"></i> -->
-                
+                <i class="fa fa-facebook"></i>
+                <!-- <img src="facebook.png" alt=""> -->
             </div>
             <div class="icon">
                 <i class="fa fa-twitter"></i>
+                <!-- <img src="twitter.webp" alt=""> -->
             </div>
             <div class="icon">
                 <i class="fa fa-instagram"></i>
+                <!-- <img src="insta.png" alt=""> -->
             </div>
             <div class="icon">
                 <i class="fa fa-youtube"></i>
+                <!-- <img src="youtube-logo-hd-8.png" alt=""> -->
             </div>
-
         </div>
      </div>
     </div>
 </footer>
+<script>
+   
+const menuIcon = document.querySelector('.menu_icon');
+const navList = document.querySelector('nav ul');
+
+menuIcon.addEventListener('click', function() {
+  navList.classList.toggle('show');
+});
+</script>
+
 </body>
 </html>
