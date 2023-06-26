@@ -92,7 +92,7 @@ nav ul li:hover {
 }
 
 .hero_content h1 {
-  font-size: 72px;
+  font-size: 73px;
   line-height: 1.2;
   font-weight: 400;
 }
@@ -101,7 +101,6 @@ nav ul li:hover {
   align-self: flex-start;
 }
 
-/* Features Section */
 .features {
   margin-top: 100px;
   display: flex;
@@ -114,6 +113,7 @@ nav ul li:hover {
   gap: 20px;
   padding: 20px;
   transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
 .feature img {
   width: 72px;
