@@ -22,7 +22,6 @@ button:hover {
   cursor: pointer;
 
 }
-/* Navigation */
 
 nav {
     box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
@@ -68,7 +67,7 @@ nav ul li:hover {
   display: none;
 }
 
-/* Hero Section */
+
 .hero {
   display: flex;
   gap: 100px;
@@ -126,8 +125,6 @@ nav ul li:hover {
   border: 1px solid #ccc;
   margin: 20px 0;
 }
-
-/* Menu Section */
 
 .menu {
   display: flex;
