@@ -355,109 +355,6 @@ section{
 }
 
 
-/* .contact-info{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(160px,auto));
-    gap: 2rem;
-    align-items: center;
-}
-.contact-info img{
-    margin-left: 70px;
-}
-.contact-info h6{
-    margin-left: 70px;
-}
-.first-info img{
-    max-width: 100%;
-    width: 120px;
-    height: auto;
-}
-.first-info h6{
-    color: #5E6282;
-    font-size: 13px;
-    line-height: 20px;
-    font-weight: 500;
-    margin-top: 15px;
-    cursor: pointer;
-    transition: all .42s;
-}
-.first-info h6:hover{
-    color: #D46951;
-}
-.contact-info h4{
-    font-size: 18px;
-    color: #080809;
-    font-weight: 700;
-    text-transform: capitalize;
-    margin-bottom: 15px;
-}
-.contact-info p{
-    color: #5E6282;
-    font-size: 15px;
-    font-weight: 500;
-    text-transform: capitalize;
-    cursor: pointer;
-    margin-bottom: 6px; 
-    transition: all .42s;
-}
-.contact-info p:hover{
-    color: #D46951;
-}
-.fifth-info .icon{
-    color: #000;
-    font-size: 20px;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background-color: #fff;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 4px 15px rgb(0 0 0 / 10%);
-    margin-right: 15px;
-    margin-bottom: 20px;
-    transition: all .42s;
-}
-
-.fifth-info .icon .grad-icon{
-    background: linear-gradient(#ef32d9,#89fffd);
-    color: #fff;
-
-}
-.fifth-info .icon a:hover{
-    transform: scale(1.1);
-}
-.fifth-info h5{
-    color: #5E6282;
-    font-size: 16px;
-    text-transform: capitalize;
-    font-weight: 500;
-    margin-bottom: 15px;
-    margin-left: 50px;
-    cursor: pointer;
-    transition: all .42s;
-}
-.fifth-info h5:hover{
-    color: #D46951;
-}
-.img-info img{
-    display: flex;
-    width: 100px;
-    height: auto;
-    cursor: pointer;
-    padding: 3px;
-    gap: 20px;
-    
-}
-
-.img-info {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-  } */
-  
-
-
 #contact{
     height: 100px;
     margin: 50px;
@@ -600,6 +497,9 @@ footer P{
     }
 }
 @media(max-width:415px){
+    .home{
+        margin: 0;
+    }
     .home-text h1{
         font-size: 40px;
         line-height: 50px;
@@ -609,6 +509,48 @@ footer P{
         font-size: 12px;
         transition: .3s;
     }
+    .office-name{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        grid-gap: 10px;  
+    }
+    .office-name img {
+        max-width: 50%;
+        width: 100%;
+        height: auto;
+        margin-left: 50px;
+      }
+      .section-heading{
+        margin-left: 70px;
+      }
+      .contact-form{
+        margin-left: 40px;
+      }
+      .Dest-text h2{
+        font-size: 30px;
+      }
+      #menu-icon{
+        display: block;
+    }
+    .navmenu{
+        position: absolute;
+        top: -600px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: #fff1DA;
+        text-align: left;
+        transition: all .42s;
+    }
+    .navmenu a{
+        display: block;
+        padding: 16px;
+        margin: 8px;
+        border-left: 2px solid #211832;
+    }
+    .navmenu.open{
+        top: 100%;
+    }
 }
 @media(max-width:1000px){
     .test-text{
@@ -617,6 +559,7 @@ footer P{
         text-align: center;
         transition: .3s;
     }
+
 }
 @media(max-width:970px){
     #menu-icon{
