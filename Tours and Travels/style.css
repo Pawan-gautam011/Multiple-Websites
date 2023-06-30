@@ -355,15 +355,23 @@ section{
 }
 
 
+
+
+
 #contact{
     height: 100px;
     margin: 50px;
 }
 .section-heading{
-    margin-left: 390px;
+    margin: -4px;
+    margin-left: 430px;
+}
+.section-description{
+    padding: 10px;
+    margin-left: -1px;
 }
 .container{
-    margin: 0;
+    margin: 30px;
 }
 .contact-info {
     display: grid;
@@ -499,6 +507,9 @@ footer P{
 @media(max-width:415px){
     .home{
         margin: 0;
+    }
+    .home-text{
+        top: 10;
     }
     .home-text h1{
         font-size: 40px;
