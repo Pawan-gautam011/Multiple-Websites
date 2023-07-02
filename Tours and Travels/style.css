@@ -18,7 +18,7 @@ header{
     padding: 22px 12%;
     background: #fff1da ;
     position: sticky;
-    padding: 22px 12%;
+    padding: 21px 13%;
     box-shadow: 0px 4px 15px rgb(0 0 0 / 8%);
     transition: .43s;
 }
@@ -170,12 +170,6 @@ section{
     background: transparent;
     color: #212832;
 }
-/* header .sticky{
-    background-color: #fff1da;
-    padding: 22px 12%;
-    box-shadow:2px solid wheat;
-    transition: .43s;
-} */
 .center-text{
     text-align: center;
 }
