@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Download Progress</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <button>Download</button>
+    <script>
+      const button = document.querySelector("button");
+      button.addEventListener("click", () => {
+        button.innerHTML = "Downloading...";
+        button.classList.add("preview");
+        setTimeout(() => {
+          button.innerHTML = "Done";
+          button.classList.add("add");
+          button.classList.remove("preview");
+        }, 6000);
+      });
+    </script>
+  </body>
+</html>

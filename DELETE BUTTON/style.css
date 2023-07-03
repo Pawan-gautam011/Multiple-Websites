@@ -1,0 +1,61 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(17, 91, 160, 0.514);
+}
+button{
+    position: relative;
+    border: 0;
+    padding: 12px 18px;
+    background-color: rgb(28, 55, 211);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+button::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.356);
+    right: 96px;
+    top: 0px;
+    border-radius: 5px;
+}
+button.preview::before{
+    animation: animate 6s ease-in-out forwards;
+}
+@keyframes animate {
+    0%{
+        right: 96px;
+    }23%{
+        right: 82px;
+    }31%{
+        right: 80px;
+    }35%{
+        right: 65px;
+    }55%{
+        right: 55px;
+    }71%{
+        right: 50px;
+    }83%{
+        right: 45px;
+    }91%{
+        right: 25px;
+    }95%{
+        right: 15px;
+    }100%{
+        right: 0px;
+    }
+}
+button.add{
+    background-color: rgb(27, 180, 13);
+}
