@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Size Change on Scroll</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="background"></div>
+    <div class="container">
+      <h2>Background Change on Scroll</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia facilis
+        dolore, tempora expedita vel modi provident dolorem cumque, facere
+        cupiditate doloribus vero maiores. Ullam veniam nostrum quis consectetur
+        eos assumenda pariatur libero laboriosam, consequuntur hic aut ab dolore
+        voluptatem, totam exercitationem ratione. Exercitationem, aliquid sequi?
+        In esse odio quod laudantium repellat harum excepturi tempore recusandae
+        eligendi numquam perspiciatis nostrum veritatis fuga, blanditiis culpa
+        omnis quidem amet tenetur voluptatibus animi porro est nesciunt nulla
+        debitis. Excepturi inventore animi pariatur dicta debitis aut quam
+        itaque, doloribus, maiores officiis autem ipsum corporis quaerat
+        blanditiis quas odit, beatae veniam. Pariatur totam amet magni fugiat
+        quae. Illum, rem possimus necessitatibus ipsam laboriosam ad nemo
+        facilis assumenda totam minus corporis nulla? Qui voluptatem consectetur
+        iusto sed corrupti minima atque a, dolorum aliquam perspiciatis maiores
+        libero debitis molestiae. Vitae possimus voluptate reiciendis tenetur
+        sequi? Aliquam omnis ipsum delectus illum, quisquam ducimus iusto
+        perferendis temporibus, earum vitae odio? Doloremque harum repellat
+        ullam quos eos necessitatibus delectus aperiam ducimus enim ab, esse
+        rerum! Nobis, veritatis alias nulla at blanditiis suscipit repellat
+        maiores. Reiciendis itaque consequatur, cupiditate accusantium tempore
+        error distinctio similique vitae eligendi ad voluptas soluta porro
+        expedita quisquam libero eveniet optio impedit cumque eum amet mollitia
+        id in. Natus provident facere tempore sed perferendis fuga minima
+        accusantium. Maxime non deleniti cumque sequi perferendis, ad repellat
+        consectetur quia tempora, voluptatum voluptas reprehenderit ut
+        blanditiis magnam dicta nesciunt nulla asperiores? Odit perferendis
+        dolorem tempora voluptates quidem eaque nulla. Error aliquid inventore
+        repellat facere suscipit, obcaecati incidunt quasi neque, praesentium
+        tenetur fugit reiciendis voluptatem hic eum. Aut molestias reiciendis
+        hic recusandae amet expedita ipsa deleniti molestiae maiores assumenda
+        itaque ullam unde illo, tempora minus eligendi voluptatibus quia facere
+        deserunt dicta est ab quaerat aliquid. Aspernatur iusto commodi,
+        obcaecati unde laudantium accusantium cupiditate vero illum vel
+        similique consequuntur suscipit illo asperiores nemo nesciunt libero
+        deserunt incidunt consectetur dolore ipsa inventore nobis quisquam,
+        molestiae dolorem? Nesciunt dolores neque, quas nostrum totam officia
+        adipisci quaerat laboriosam suscipit non perspiciatis! Voluptates fugiat
+        tenetur blanditiis, quis aliquam, amet assumenda aliquid quisquam ipsa
+        ad tempora harum dolorum delectus? Beatae ex quos harum odit praesentium
+        ipsum a unde quod vel? Expedita rerum voluptatem exercitationem fugiat,
+        architecto eius accusamus optio suscipit illo quibusdam dicta id
+        temporibus officia omnis odit cupiditate sunt. Minus temporibus quis
+        officiis, nostrum quo harum. Ea fugiat voluptate fuga magni saepe esse
+        at quisquam illo rem accusantium! Maiores, repellat earum. Ab, nobis
+        minima. Esse sed adipisci ex exercitationem, voluptate quam maiores, qui
+        molestiae blanditiis officiis, magni dignissimos laborum ut ipsum harum
+        veritatis. Voluptatem, enim qui repudiandae dolores exercitationem
+        doloribus quam temporibus quod provident ipsa sapiente expedita quia ea
+        libero neque quaerat? Temporibus impedit id distinctio delectus alias
+        qui debitis illo, iusto accusamus odit nam! Accusantium possimus
+        exercitationem odio cupiditate doloribus, sequi omnis quos deserunt,
+        rerum beatae perferendis vitae est numquam, ut suscipit similique
+        voluptatum nostrum cumque temporibus accusamus molestiae molestias.
+        Maxime assumenda cupiditate ab eum, dicta a labore animi, neque culpa
+        quo autem, sint similique molestias corporis laborum modi nobis hic
+        porro repellendus? Voluptas, sequi itaque?
+      </p>
+    </div>
+    <script>
+      const background = document.getElementById("background");
+      window.addEventListener("scroll", () => {
+        background.style.backgroundSize = 150 - +window.pageYOffset / 12 + "%";
+      });
+      console.log(x);
+    </script>
+  </body>
+</html>

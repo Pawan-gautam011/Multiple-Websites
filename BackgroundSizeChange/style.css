@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding: 100px;
+}
+#background{
+    background-image: url(/mustang.jpg);
+    background-position: center;
+    background-size: contain;
+    background-size: 150% ;
+    height: 100vh;
+}
+.container h2{
+    font-size: 55px;
+    font-weight: 800;
+}
+.container p{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
