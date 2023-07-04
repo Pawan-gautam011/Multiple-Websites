@@ -12,7 +12,7 @@ body {
 .navbar {
     display: flex;
     justify-content: flex-end;
-    margin-right: 50px;
+    margin-right: 51px;
 }
 
 .navbar ul {
@@ -21,7 +21,7 @@ body {
 }
 
 .navbar li {
-    margin: 20px;
+    margin: 21px;
     text-transform: uppercase;
 }
 
