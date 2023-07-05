@@ -69,10 +69,8 @@
         signupBtn.classList.remove("disable");
         signinBtn.classList.add("disable");
       };
-      console.log("first");
       loginshow.onclick = function () {
-        console.log("print");
-        document.getElementById("showlogin").style.display = "block";
+        document.getElementById("showlogin").classList.toggle("active");
       };
     </script>
   </body>
