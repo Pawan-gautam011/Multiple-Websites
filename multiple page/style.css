@@ -30,8 +30,9 @@ body {
     color: aliceblue;
     font-weight:500;
     transition: .4s ease;
-
 }
+
+
 .navbar li a:hover{
     color:skyblue;
 }
@@ -98,6 +99,10 @@ form p a{
     text-decoration: none;
     color: #3c00a0;
 }
+.formerror{
+    font-size: 10px;
+    color: brown;
+}
 .btn-field{
     width: 100%;
     display: flex;
@@ -122,6 +127,15 @@ form p a{
     background: #eaeaea;
     color: #555;
 }
+
+
+
+
+
+
+
+
+
 
 
 
