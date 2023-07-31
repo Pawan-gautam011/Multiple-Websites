@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     list-style: none;
+    /* overflow-y: hidden; */
     text-decoration: none;
 }
 header{
@@ -140,6 +141,45 @@ section{
     margin-right: 40px;
     transition: all .42s;
 }
+/* button::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.356);
+    right: 96px;
+    top: 0px;
+    border-radius: 5px;
+}
+button.preview::before{
+    animation: animate 6s ease-in-out forwards;
+}
+@keyframes animate {
+    0%{
+        right: 96px;
+    }23%{
+        right: 82px;
+    }31%{
+        right: 80px;
+    }35%{
+        right: 65px;
+    }55%{
+        right: 55px;
+    }71%{
+        right: 50px;
+    }83%{
+        right: 45px;
+    }91%{
+        right: 25px;
+    }95%{
+        right: 15px;
+    }100%{
+        right: 0px;
+    }
+}
+button.add{
+    background-color: rgb(27, 180, 13);
+} */
 .btn1:hover{
     transform: translateY(-5px);
 }

@@ -12,10 +12,10 @@
     position: relative;
 }
 
-.form-box{
+ .form-box{
     width: 92%;
     max-width: 455px;
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -34,7 +34,7 @@
     width: 30px;
     height: 4px;
     border-radius: 3px;
-    background: #3c00a0;
+    background: #762fd9;
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -59,7 +59,7 @@ input{
 }
 .input-field i{
     margin-left: 15px;
-    color: #999;
+    color: #20291f;
 }
 form p{
     text-align: left;
@@ -92,4 +92,4 @@ form p a{
 .btn-field button.disable{
     background: #eaeaea;
     color: #555;
-}
+} 

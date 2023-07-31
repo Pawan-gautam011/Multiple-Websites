@@ -128,7 +128,7 @@ p:hover{
     background-color: #722300;
 
 }
-.contact,.about{
+.contact.about{
     min-height: 300px;
     padding: 12px;
     color: white;
