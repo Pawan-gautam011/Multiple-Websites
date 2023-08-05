@@ -34,30 +34,20 @@
 .nav h4{
     font-size: 2vw;
 }
-/* .nav h4:hover{
-    color: #f00e0e;
-    border: 1px solid rgb(23, 23, 80);
-    background: white;
-    padding: 4px 4px;
-    border: none;
-   
-} */
+
 .nav i{
     font-size: 1.6vw;
     flex-wrap: 800;
     display: none;
 }
-/* .right{
-    height:100%;
-    width: 40%;
-} */
+
 .right img{
     height: auto;
     width: 55vw;
     position: absolute;
     float: right;
-    top: 85px;
-    left: 53vw;
+    top: 150px;
+    left: 45vw;
 } 
 .left{
     margin: 50px;
@@ -112,7 +102,19 @@ button{
         font-size: 40px;
         color: black;
     }
-    
+
+    .right img {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    button{
+        position: relative;
+        left: 20vw;
+    }
 }
 
 
