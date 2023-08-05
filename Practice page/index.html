@@ -18,7 +18,8 @@
                 <h4>Career</h4>
                 <h4>Blog</h4>
                 <h4>Contact us</h4>
-                <i class='bx bx-menu'></i>
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <span class="active-nav"></span>
                 
             </div>
             
@@ -36,7 +37,13 @@
         
     </div>
 <script>
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.nav');
 
+menuIcon.onclick = () =>{
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+}
     var a =document.querySelector("button")
     var b= document.querySelector(".content")
     var b= document.querySelector(".content")
