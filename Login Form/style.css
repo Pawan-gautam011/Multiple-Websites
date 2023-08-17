@@ -28,6 +28,9 @@ body{
     color: #222;
 
 }
+.container input{
+    outline: none;
+}
 .container form .form-control {
     width: 100%;
     height: 40px;
@@ -56,3 +59,17 @@ body{
 .container form .btn:hover{
     opacity: .7;
 }
+
+.form-group {
+    position: relative;
+    width: 100%;
+}
+#image {
+    position: absolute;
+    top: 60%;
+    height: 20px;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
