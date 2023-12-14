@@ -90,9 +90,8 @@ hr{
       height: 90px;
       width: 90px;
       border-radius: 50%;
-      overflow: hidden;
-      
-      margin: -20px 20px;
+      overflow: hidden; 
+      margin: -5px 20px;
      
   }
   
@@ -100,21 +99,56 @@ hr{
    h4{
     font-size: 15px;
     align-items: center;
-    margin: 0 150px;
-    /* position: absolute; */
-    text-align: left;
-    
-    
-  }
-
-  .story h2{
-   
-  }
-
-  .story h4{
-    color: #8e8d8d;
+    margin: 30px 120px;
     position: absolute;
+
+  }
+  .story h4{
+    position: absolute;
+    color: #8e8d8d;
     font-weight: 100;
-    line-height: 45px;
+    font-size: 13px;
+    line-height: 50px;
   }
 
+.popup{
+     position: absolute;
+    height: 600px;
+    width: 400px;
+    background-color: #fff;
+    visibility: hidden;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    transition: transform 0.4s, top 0.4s;
+
+}
+
+.open-sale{
+visibility: visible;
+top: 50%;
+transform: translate(-50%, -50%) scale(1);
+}
+
+
+.popup p{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: bold;
+    margin:10% 0 ;
+    padding: 20px;
+}
+
+.popup button{
+   position: absolute;
+   top:80%;
+   left: 30%;
+}
+
+.popup img{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
