@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+body{
+    background: rgba(255, 255, 255, 0.5);
+ 
+   }
+.image{
+    background-image: url(Bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    min-height: 700px;
+ }
+
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 54px;
+    color: #fff;
+
+}
+
+.first-link{
+    color: #8CC062;
+}
+
+nav ul{
+    display: flex;
+   
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: #8CC062;
+}
+.middle{
+    text-align: center;
+    position: relative;
+    margin-top: 160px;
+    font-size: 18px;
+    color: #fff;
+  
+}
+
+.middle h1{
+    font-size: 43px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 60px;
+}
+.middle h2{
+    font-size: 28px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.middle p{
+    color: #dadada;
+    font-size: 15px;
+    text-shadow: 2px 2px 8px #000;
+    line-height: 27px;
+    letter-spacing: 0px;
+    padding: 0em 9em;
+    font-weight: 100px;
+}
+.middle .button a{
+    display: inline-block; 
+    width: 150px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+.middle .button{
+    margin-top: 50px;
+}
+ .first-btn{
+    color: #8CC062;
+}
+.second-btn{
+    color: #fff;
+    background-color: #8CC062;
+}
+.middle .button a:hover{
+    background-color: #000000;
+    color: #fff;
+}
+
+.two{
+    text-align: center;
+}
