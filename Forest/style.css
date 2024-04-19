@@ -97,6 +97,7 @@ nav ul li a:hover{
 }
  .first-btn{
     color: #8CC062;
+    background: white;
 }
 .second-btn{
     color: #fff;
@@ -109,4 +110,101 @@ nav ul li a:hover{
 
 .two{
     text-align: center;
+    margin-top: 70px;
 }
+
+.two h2{
+    color: #8CC062;
+}
+.two p{
+    margin: 20px;
+    font-size: 15px;
+    color: #676662;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+    line-height: 28px;
+}
+
+.aboutus{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 58px 94px;
+    margin-left: 100px;
+    position: relative;
+
+}
+
+.aboutus .right-content
+h2{
+    font-size: 20px;
+    color: #a3c962;
+    font-weight: 600;
+    padding-bottom: 5px;
+    position: absolute;
+    top: -25px;
+    left: 14px;
+}
+
+.aboutus .right-content
+h3{
+    font-size: 24px;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 200;
+    line-height: 34px;
+}
+
+.aboutus .right-content
+p{
+    font-size: 14px;
+    color: #4c4c4c;
+    line-height: 28px;
+    letter-spacing: 1px;
+   
+
+}
+.right-content{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 450px;
+}
+
+.right-content span{
+    position: absolute;
+    left: 15px;
+}
+
+
+
+
+
+
+/* 
+.statistics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .stat {
+    flex: 1;
+    min-width: 200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .stat .number {
+    display: block;
+    font-size: 2.5em;
+    color: #17a2b8;
+    margin-bottom: 10px;
+  }
+  
+  .stat p {
+    font-size: 1.1em;
+    color: #333;
+  } */
