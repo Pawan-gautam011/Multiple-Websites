@@ -166,8 +166,8 @@ p{
 }
 .right-content{
     position: absolute;
-    margin-top: -150px;
-    margin-left: 450px;
+    margin-top: 100px;
+    margin-left: 500px;
 }
 
 .right-content span{
@@ -176,35 +176,58 @@ p{
 }
 
 
-
-
-
-
-/* 
-.statistics {
+.round-stats{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .stat {
-    flex: 1;
-    min-width: 200px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-  
-  .stat .number {
-    display: block;
-    font-size: 2.5em;
-    color: #17a2b8;
-    margin-bottom: 10px;
-  }
-  
-  .stat p {
-    font-size: 1.1em;
-    color: #333;
-  } */
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.round-stats .first{
+    height: 150px;
+    width: 150px;
+    border-radius: 50% ;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
+    border: #049dff
+    
+}
+.round-stats .second{
+    height: 150px;
+    width: 150px;
+    border-radius: 50% ;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
+    border-color: #049dff;
+    
+}
+
+.round-stats .third{
+    height: 150px;
+    width: 150px;
+    border-radius: 50% ;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
+    border: #049dff
+}
+
+.first h1{
+    text-align: center;
+    margin-top: 40%;
+}
+.second h1{
+    text-align: center;
+    margin-top: 40%;
+}
+.third h1{
+    text-align: center;
+    margin-top: 40%;
+}
+
+
+
+.below-words{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 14px;
+    font-size: 15px;
+}
